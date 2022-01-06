@@ -1,0 +1,22 @@
+@import "./variables";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+  font-weight: unset;
+  font-family: sans-serif;
+  color: $black;
+}
+
+input {
+  background-color: $color_4;
+  text-indent: 2px;
+  border-radius: 2px;
+
+  &:focus {
+    outline: groove 1px;
+  }
+}

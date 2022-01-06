@@ -1,0 +1,28 @@
+@import './utilities/variables';
+
+button {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: 800;
+  z-index: 3;
+  background-color: orangered;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#controls {
+  position: absolute;
+  padding: 0 15px;
+  bottom: 20px;
+  display: flex;
+  width: 100%;
+  gap: 50px;
+  justify-content: flex-end;
+
+  #tryAgain {
+    background-color: $color_9;
+    color: $black;
+  }
+}

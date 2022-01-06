@@ -1,0 +1,72 @@
+@import './utilities/variables';
+
+form.submitNewPlayer {
+  * {
+    margin: 7px 0;
+  }
+
+  input {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 3px;
+  }
+
+  button {
+    cursor: pointer;
+    background-color: $color_11;
+    color: $color_4;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+}
+
+div.divError {
+  border-radius: 5px;
+  padding: 5px 0;
+  background-color: $color_7;
+  width: 200px;
+  text-align: center;
+
+  span {
+    color: orangered;
+  }
+}
+
+#players {
+  align-self: flex-start;
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .player {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    background-color: $color_6;
+    padding: 5px;
+    margin: 5px 0;
+
+    .deletePlayer {
+      cursor: pointer;
+    }
+
+  }
+}
+
+#goToNextStage {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 800;
+  position: absolute;
+  z-index: 3;
+  background-color: orangered;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  bottom: 20px;
+  right: 20px;
+}

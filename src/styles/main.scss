@@ -1,0 +1,28 @@
+@import './utilities/variables.scss';
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: $color_7;
+
+  .wrapper-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh;
+    background-color: $color_10;
+    border-radius: 5px;
+
+    h1 {
+      font-size: 1.2em;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-decoration: underline;
+      margin-bottom: 20px;
+      color: $color_11
+    }
+  }
+}
